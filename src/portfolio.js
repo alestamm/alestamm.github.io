@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Alexandre Stamm de Carvalho",
+  title: "Hi, my name is Alexandre!",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I'm a Business/Data Analyst, passionate about Data Science and currently working as a Business Analyst in a brazilian startup."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1zXtSWlkObi_r91NAIysBpHRtRKVldyZe/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/alestamm",
+  linkedin: "https://www.linkedin.com/in/alexandre-stamm/",
+  gmail: "alestcarvalho@gmail.com",
+  //gitlab: "https://gitlab.com/saadpasta",
+  //facebook: "https://www.facebook.com/saad.pasta7",
+  medium: "https://medium.com/@alestamm",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "Help business thrive by collecting, transforming, and organizing data to help companies make data-driven decisions.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ I have experience using SQL and Python to collect, clean, and analyse data."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡I can use Tableau, Google DataStudio and PowerBI to deliver beautiful reports and visualizations to stakeholders."
+    ),
+    emoji(
+      "⚡ I can also use machine-learning and tools like Pandas, Scikit-Learn and Tensorflow to develop models to help companies solve problems."
     )
   ],
 
@@ -65,52 +68,40 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "NumPy",
+      fontAwesomeClassname: "fas fa-cube"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Pandas",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "AI",
+      fontAwesomeClassname: "fas fa-microship"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "google cloud",
+      fontAwesomeClassname: "fab fa-google"
+    },
+    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "docker",
@@ -126,23 +117,34 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Le Wagon Coding Bootcamp",
+      logo: require("./assets/images/logolewagon.png"),
+      subHeader: "Data Science Bootcamp",
+      duration: "November 2019 - May 2022",
+      desc: "Le Wagon's Data Science Bootcamp is a 24-week-360h long program focused on the intensive and immersive theoretical and practical work related to this field.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Python for Data Science",
+        "Relational Database & SQL",
+        "Statistics, Probability, Linear Algebra",
+        "Machine learning & Deep Learning",
+        "Data engineering"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Universidade Presbiteriana Mackenzie",
+      logo: require("./assets/images/mackenzielogo.png"),
+      subHeader: "Bachelor of Business admnistration",
+      duration: "january 2008 - December 2011",
+      desc: "Bachelor degree in Business Admnistration in the top 1 private college according THE Latin America University Ranking"
+      //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+    {
+      schoolName: "Fundação Getúlio Vargas - FGV",
+      logo: require("./assets/images/logofgv.png"),
+      subHeader: "Retail management Specialization",
+      duration: "April 2015 - July 2015",
+      desc: "Retail management specilization short course provided by FGV, one of the best private colleges in Brazil."
+      //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -153,16 +155,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Python", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "SQL (PostgreSQL, Snowflake, MySQL)",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Data Analytics",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Pandas, Numpy, Seaborn",
+      progressPercentage: "90%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +180,42 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Business Analyst",
+      company: "Inventa",
+      companylogo: require("./assets/images/logoinventa.png"),
+      date: "April 2022 – Present",
+      desc: "Using data to help stakeholders make good business decisions.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Creating models and analyses to understand consumer behavior, retention, and marketing campaigns impacts;",
+        "Managing hypothesis testing and analysis from the start to end, and monitoring results;",
+        "Identify business challenges and opportunities, using tools and analytical skills to solve problems.",
+        "Working with stakeholders on diagnostic and hypothesis testing and business cases;",
+        "Tools I use daily: Snowflake, PostgreSQL, Google DataStudio, Python, Hex"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Co-founder",
+      company: "Barato Express",
+      companylogo: require("./assets/images/logobarato.png"),
+      date: "October 2015 – April 2022",
+      desc: "Co-founded the company which grew up to have more than 80 employees and 26 physical locations all over Brazil",
+      descBullets: [
+        "Providing feedback and analysis through data reports for the franchisees and other stakeholders, also being responsible for all ETL workflow of the data in the company;",
+        "Branching the company to sell in online Brazilian marketplaces such as MercadoLivre and Shopee, and growing from 0 to more than R$100.000 in sales in just 3 months.",
+        "Recruiting, training and managing of 80+ employees in their   tasks and processes in the company;"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Operations manager",
+      company: "Leporello",
+      companylogo: require("./assets/images/logoleporello.png"),
+      date: "March 2008 – October 2015",
+      desc: "Worked directly with the CEO and CFO, elaborating data reports and dashboards to help with data-driven decisions.",
+      descBullets: [
+        "Providing feedback and analysis through data reports for the franchisees and other stakeholders, also being responsible for all ETL workflow of the data in the company;",
+        "Managed the logistic, commercial, and IT teams of the 20+ physical stores around São Paulo, with around 120 employees;",
+        "Hired and implemented a new ERP system which resulted in more than 30% savings in monthly personnel and administration costs"
+      ]
     }
   ]
 };
@@ -212,29 +231,55 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some cool projects I participated!",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/hear4me.jpg"),
+      projectName: "Hear4me",
+      projectDesc:
+        "Hear4me is an app that uses NLP to summarize and provide sentiment analysis of audio files. It was done by me and my colleagues Luis and Alexandre @ Le Wagon.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://hear4.me/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/bitcoin.png"),
+      projectName: "Coindata",
+      projectDesc:
+        "Coindata is an content agreggator for Reddit, that I made for getting daily submissions of the top 50 cryptocurrencies on CoinMarketCap.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Check it on github",
+          url: "https://github.com/alestamm/CoinData"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/bellabeat.png"),
+      projectName: "Bellabeat Case Study",
+      projectDesc:
+        "This is a case study of Bellabeat company done for the Google Data Analytics capstone project.",
+      footerLink: [
+        {
+          name: "Check it out on Kaggle",
+          url: "https://www.kaggle.com/code/alestamm/bellabeat-case-study"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/olist.jpg"),
+      projectName: "Olist Le Wagon Challenge",
+      projectDesc:
+        "This was my first project of data analysis done while attending Le Wagon Data Science Bootcamp",
+      footerLink: [
+        {
+          name: "Check it out on github",
+          url: "https://github.com/alestamm/Olist-Le-Wagon-Challenge/blob/main/ceo_request.ipynb"
         }
       ]
     }
@@ -247,52 +292,30 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle: "Achievements and Certifications",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Google Data Analytics Professional Certifical",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Those who earn the Google Data Analytics Certificate have completed eight courses, developed by Google, that include hands-on, practice-based assessments in Data Analytics.",
+      image: require("./assets/images/googlecert.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://www.credly.com/badges/c9eb2ea0-d0a7-413e-af74-b38d1d4427c8"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Le Wagon Data Science bootcamp",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Completed Le Wagon 360h long Data Science, Python & Machine learning bootcamp.",
+      image: require("./assets/images/logolewagon.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certificate",
+          url: "https://drive.google.com/file/d/1U4raHeqTN2-zf52dOjZ6N__RzBF8dfLb/view?usp=sharing"
         }
       ]
     }
@@ -305,20 +328,18 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Besides working with data daily, I also write about Data Analytics and Data Science whenever I can.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "",
+      title: "",
+      description: ""
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "",
+      title: "",
+      description: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -340,7 +361,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -353,22 +374,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  //number: "+92-0000000000",
+  email_address: "alestcarvalho@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 export {
