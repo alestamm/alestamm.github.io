@@ -41,8 +41,7 @@ export default function GithubProfileCard({prof}) {
                 </span>
               </div>
             )}
-            <div className="opp-div">
-            </div>
+            <div className="opp-div"></div>
             <SocialMedia />
           </div>
           <div className="image-content-profile">
