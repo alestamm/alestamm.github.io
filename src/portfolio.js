@@ -20,13 +20,13 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Alexandre Stamm de Carvalho",
+  username: "Alexandre Stamm",
   title: "Hi, my name is Alexandre!",
   subTitle: emoji(
-    "I'm a Business/Data Analyst, passionate about Data Science and currently working as a Business Analyst in a brazilian startup."
+    "I'm a Business/Data Analyst, passionate about Data Science and currently working as a Business Analyst in a Brazilian startup."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1zXtSWlkObi_r91NAIysBpHRtRKVldyZe/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1giJRQ6XXPhGtb0OIErCPYWfnQzeBh-c5/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -50,16 +50,16 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "Help business thrive by collecting, transforming, and organizing data to help companies make data-driven decisions.",
+    "Help businesses thrive by collecting, transforming, and organizing data to support companies with data-driven decisions.",
   skills: [
     emoji(
-      "⚡ I have experience using SQL and Python to collect, clean, and analyse data."
+      "⚡ I have experience using SQL and Python to collect, clean, and analyze data."
     ),
     emoji(
-      "⚡I can use Tableau, Google DataStudio and PowerBI to deliver beautiful reports and visualizations to stakeholders."
+      "⚡I can use Tableau, Google DataStudio, and PowerBI to deliver beautiful reports and visualizations to stakeholders."
     ),
     emoji(
-      "⚡ I can also use machine-learning and tools like Pandas, Scikit-Learn and Tensorflow to develop models to help companies solve problems."
+      "⚡ I can also use machine-learning and tools like Pandas, Scikit-Learn and, Tensorflow to develop models to help companies solve problems."
     )
   ],
 
@@ -89,7 +89,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "AI",
-      fontAwesomeClassname: "fas fa-microship"
+      fontAwesomeClassname: "fas fa-microship-ai"
     },
     {
       skillName: "linux",
@@ -186,10 +186,10 @@ const workExperiences = {
       date: "April 2022 – Present",
       desc: "Using data to help stakeholders make good business decisions.",
       descBullets: [
-        "Creating models and analyses to understand consumer behavior, retention, and marketing campaigns impacts;",
+        "Creating models and analysis to understand consumer behavior, retention, and marketing campaigns impacts;",
         "Managing hypothesis testing and analysis from the start to end, and monitoring results;",
         "Identify business challenges and opportunities, using tools and analytical skills to solve problems.",
-        "Working with stakeholders on diagnostic and hypothesis testing and business cases;",
+        "Working with stakeholders on diagnostic and hypothesis testing of business cases;",
         "Tools I use daily: Snowflake, PostgreSQL, Google DataStudio, Python, Hex"
       ]
     },
@@ -200,21 +200,22 @@ const workExperiences = {
       date: "October 2015 – April 2022",
       desc: "Co-founded the company which grew up to have more than 80 employees and 26 physical locations all over Brazil",
       descBullets: [
-        "Providing feedback and analysis through data reports for the franchisees and other stakeholders, also being responsible for all ETL workflow of the data in the company;",
+        "Providing feedback and analysis through data reports for the franchisees and other stakeholders, also being responsible for all ETL and data workflow of the company;",
         "Branching the company to sell in online Brazilian marketplaces such as MercadoLivre and Shopee, and growing from 0 to more than R$100.000 in sales in just 3 months.",
-        "Recruiting, training and managing of 80+ employees in their   tasks and processes in the company;"
+        "Recruiting, training, and managing of 80+ employees in their   tasks and processes in the company;"
       ]
     },
     {
-      role: "Operations manager",
+      role: "Operations Analyst",
       company: "Leporello",
       companylogo: require("./assets/images/logoleporello.png"),
       date: "March 2008 – October 2015",
       desc: "Worked directly with the CEO and CFO, elaborating data reports and dashboards to help with data-driven decisions.",
       descBullets: [
-        "Providing feedback and analysis through data reports for the franchisees and other stakeholders, also being responsible for all ETL workflow of the data in the company;",
-        "Managed the logistic, commercial, and IT teams of the 20+ physical stores around São Paulo, with around 120 employees;",
-        "Hired and implemented a new ERP system which resulted in more than 30% savings in monthly personnel and administration costs"
+        "Preparation of management reports (data reports and dashboards) for the Financial, Commercial, and Logistics Departments;",
+        "Elaborating data reports directly to the CEO to help with data-oriented decisions;",
+        "Control and analysis of stores sales and performance;",
+        "Hired and implemented a new ERP system which resulted in more than 30 % savings in monthly personnel and administration costs."
       ]
     }
   ]
@@ -251,7 +252,7 @@ const bigProjects = {
       image: require("./assets/images/bitcoin.png"),
       projectName: "Coindata",
       projectDesc:
-        "Coindata is an content agreggator for Reddit, that I made for getting daily submissions of the top 50 cryptocurrencies on CoinMarketCap.",
+        "Coindata is a content aggregator for Reddit, that I made for getting daily submissions of the top 50 cryptocurrencies on CoinMarketCap.",
       footerLink: [
         {
           name: "Check it on github",
@@ -308,7 +309,7 @@ const achievementSection = {
       ]
     },
     {
-      title: "Le Wagon Data Science bootcamp",
+      title: "Le Wagon Data Science Bootcamp",
       subtitle:
         "Completed Le Wagon 360h long Data Science, Python & Machine learning bootcamp.",
       image: require("./assets/images/logolewagon.png"),
