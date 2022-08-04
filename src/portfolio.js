@@ -297,7 +297,7 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Data Analytics Professional Certifical",
+      title: "Google Data Analytics Professional Certificate",
       subtitle:
         "Those who earn the Google Data Analytics Certificate have completed eight courses, developed by Google, that include hands-on, practice-based assessments in Data Analytics.",
       image: require("./assets/images/googlecert.png"),
