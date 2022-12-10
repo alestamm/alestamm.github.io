@@ -1,47 +1,51 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dbf7bd2dca384c589dad540c93b8c09b",
+    "revision": "df479fe7da197691756c9b97c9ff2337",
     "url": "/index.html"
   },
   {
-    "revision": "d9976621a87b41cf4a53",
+    "revision": "2f93f4216e91290539ce",
     "url": "/static/css/3.df879eac.chunk.css"
   },
   {
-    "revision": "795fce3f1396962f9e2e",
+    "revision": "bdd47ba31d6d045d170b",
     "url": "/static/css/4.e91a4b36.chunk.css"
   },
   {
-    "revision": "2c73c8c23b74b9ec1106",
+    "revision": "c4e992ea8b74919a89da",
     "url": "/static/css/main.c01c18fe.chunk.css"
   },
   {
-    "revision": "d91d1a8175819d8acb8c",
-    "url": "/static/js/2.2496a754.chunk.js"
+    "revision": "654bb5634a29aecf930e",
+    "url": "/static/js/2.51ba61d6.chunk.js"
   },
   {
     "revision": "408f8ade359af8695a328ed937291fdf",
-    "url": "/static/js/2.2496a754.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.51ba61d6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d9976621a87b41cf4a53",
-    "url": "/static/js/3.f048da06.chunk.js"
+    "revision": "2f93f4216e91290539ce",
+    "url": "/static/js/3.0ddae9ca.chunk.js"
   },
   {
-    "revision": "795fce3f1396962f9e2e",
-    "url": "/static/js/4.110d4a14.chunk.js"
+    "revision": "bdd47ba31d6d045d170b",
+    "url": "/static/js/4.63afbcb1.chunk.js"
   },
   {
-    "revision": "2c73c8c23b74b9ec1106",
-    "url": "/static/js/main.d5aadbc1.chunk.js"
+    "revision": "c4e992ea8b74919a89da",
+    "url": "/static/js/main.c6818e1b.chunk.js"
   },
   {
-    "revision": "b9ad335ea4be501bac64",
-    "url": "/static/js/runtime-main.c978c4c9.js"
+    "revision": "58c53a0d0e83979c2bb1",
+    "url": "/static/js/runtime-main.f5d73520.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "cbda7679d722de9f238dcf86b76e542f",
+    "url": "/static/media/Data_Engineering_Essentials.cbda7679.png"
   },
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
