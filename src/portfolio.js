@@ -23,10 +23,10 @@ const greeting = {
   username: "Alexandre Stamm",
   title: "Hi, my name is Alexandre!",
   subTitle: emoji(
-    "I'm a Business/Data Analyst, passionate about Data Science and currently working as a Business Analyst in a Brazilian startup."
+    "I'm a Data Engineer, passionate about Data Engineering and currently working at Santander Bank."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1giJRQ6XXPhGtb0OIErCPYWfnQzeBh-c5/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1DZozrDik8o8RycyaYyGiP7hmWlgyBP8v/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -180,17 +180,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Data Engineer",
+      company: "Santander F1RST",
+      companylogo: require("./assets/images/santander.png"),
+      date: "November 2022 – Present",
+      desc: "Working with Data Quality & Governance team to develop & maintain data quality rules and checks",
+      descBullets: [
+        "Developing and maintaining data quality rules and checks;",
+        "Providing data quality results on monitoring platforms;",
+        "Automation of data quality processes involving monitoring and tools for cataloging data quality incidents."
+      ]
+    },
+    {
       role: "Business Analyst",
       company: "Inventa",
       companylogo: require("./assets/images/logoinventa.png"),
-      date: "April 2022 – Present",
+      date: "April 2022 – November 2022",
       desc: "Using data to help stakeholders make good business decisions.",
       descBullets: [
         "Creating models and analysis to understand consumer behavior, retention, and marketing campaigns impacts;",
         "Managing hypothesis testing and analysis from the start to end, and monitoring results;",
         "Identify business challenges and opportunities, using tools and analytical skills to solve problems.",
         "Working with stakeholders on diagnostic and hypothesis testing of business cases;",
-        "Tools I use daily: Snowflake, PostgreSQL, Google DataStudio, Python, Hex"
+        "Tools I used daily: Snowflake, PostgreSQL, Google DataStudio, Python, Hex"
       ]
     },
     {
@@ -297,13 +309,25 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "IBM - Data Engineering Foundations",
+      subtitle:
+        "The earner of this certificate has demonstrated mastery of fundamental skills required for Data Engineering, including a working knowledge of the data ecosystem and lifecyle, Python programming  language, working with different types of data files, using libraries such as Pandas and Numpy, invoking APIs, webscraping, performing basic ETL, and working with SQL and relational databases.",
+      image: require("./assets/images/Data_Engineering_Essentials.png"),
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/F6EGB7LS9D2K"
+        }
+      ]
+    },
+    {
       title: "Google Data Analytics Professional Certificate",
       subtitle:
         "Those who earn the Google Data Analytics Certificate have completed eight courses, developed by Google, that include hands-on, practice-based assessments in Data Analytics.",
       image: require("./assets/images/googlecert.png"),
       footerLink: [
         {
-          name: "Certification",
+          name: "Certificate",
           url: "https://www.credly.com/badges/c9eb2ea0-d0a7-413e-af74-b38d1d4427c8"
         }
       ]
@@ -329,7 +353,7 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "Besides working with data daily, I also write about Data Analytics and Data Science whenever I can.",
+    "Besides working with data daily, I also write about Data Engineering & Analytics whenever I can.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
