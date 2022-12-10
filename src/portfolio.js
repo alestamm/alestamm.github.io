@@ -23,7 +23,7 @@ const greeting = {
   username: "Alexandre Stamm",
   title: "Hi, my name is Alexandre!",
   subTitle: emoji(
-    "I'm a Data Engineer, passionate about Data Engineering and currently working at Santander Bank."
+    "I'm a Data Engineer, passionate about Data Engineering, Analytics & Science, currently working at Santander Bank."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1DZozrDik8o8RycyaYyGiP7hmWlgyBP8v/view", // Set to empty to hide the button
