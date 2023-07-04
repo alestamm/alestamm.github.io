@@ -23,10 +23,10 @@ const greeting = {
   username: "Alexandre Stamm",
   title: "Hi, my name is Alexandre!",
   subTitle: emoji(
-    "I'm a Data Engineer, passionate about Data Engineering, Analytics & Science, currently working at Santander Bank."
+    "I'm a Data Engineer, passionate about Data Engineering, Analytics & Science, currently working at Santander F1rst."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1DZozrDik8o8RycyaYyGiP7hmWlgyBP8v/view", // Set to empty to hide the button
+    "https://drive.google.com/file/d/11aMjZ8XKTtmmqiZOOZJa_uhGuwjRIZS4/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -53,13 +53,13 @@ const skillsSection = {
     "Help businesses thrive by collecting, transforming, and organizing data to support companies with data-driven decisions.",
   skills: [
     emoji(
-      "⚡ I have experience using SQL and Python to collect, clean, and analyze data."
+      "⚡ I have experience using SQL, Scala and Python to collect, clean, and analyze data."
     ),
     emoji(
       "⚡I can use Tableau, Google DataStudio, and PowerBI to deliver beautiful reports and visualizations to stakeholders."
     ),
     emoji(
-      "⚡ I can also use machine-learning and tools like Pandas, Scikit-Learn and, Tensorflow to develop models to help companies solve problems."
+      "⚡ I can work with Databricks, Snowflake, Spark, and DBT to make data available to support data-driven decisions."
     )
   ],
 
@@ -117,6 +117,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "IGTI - XP Educação",
+      logo: require("./assets/images/XPE.jpeg"),
+      subHeader: "MBA - Data Engineering ",
+      duration: "February 2023 - November 2023",
+      desc: "MBA with focus on Data Engineering",
+      // descBullets: [      ]
+    },
+    {
       schoolName: "Le Wagon Coding Bootcamp",
       logo: require("./assets/images/logolewagon.png"),
       subHeader: "Data Science Bootcamp",
@@ -167,7 +175,7 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Pandas, Numpy, Seaborn",
+      Stack: "Spark, Scala, Databricks",
       progressPercentage: "90%"
     }
   ],
@@ -218,7 +226,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Operations Analyst",
+      role: "Operations Manager/DBA/Business Analyst",
       company: "Leporello",
       companylogo: require("./assets/images/logoleporello.png"),
       date: "March 2008 – October 2015",
@@ -227,6 +235,7 @@ const workExperiences = {
         "Preparation of management reports (data reports and dashboards) for the Financial, Commercial, and Logistics Departments;",
         "Elaborating data reports directly to the CEO to help with data-oriented decisions;",
         "Control and analysis of stores sales and performance;",
+        "Managing the company data in PostgreSQL databases",
         "Hired and implemented a new ERP system which resulted in more than 30 % savings in monthly personnel and administration costs."
       ]
     }
@@ -276,23 +285,11 @@ const bigProjects = {
       image: require("./assets/images/bellabeat.png"),
       projectName: "Bellabeat Case Study",
       projectDesc:
-        "This is a case study of Bellabeat company done for the Google Data Analytics capstone project.",
+        "This is a case study of Bellabeat company done for the Google Data Analytics capstone project. Made using Tableau and Python.",
       footerLink: [
         {
           name: "Check it out on Kaggle",
           url: "https://www.kaggle.com/code/alestamm/bellabeat-case-study"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/olist.jpg"),
-      projectName: "Olist Le Wagon Challenge",
-      projectDesc:
-        "This was my first project of data analysis done while attending Le Wagon Data Science Bootcamp",
-      footerLink: [
-        {
-          name: "Check it out on github",
-          url: "https://github.com/alestamm/Olist-Le-Wagon-Challenge/blob/main/ceo_request.ipynb"
         }
       ]
     }
@@ -309,14 +306,14 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "IBM - Data Engineering Foundations",
+      title: "Databricks Certified Data Engineer Associate",
       subtitle:
-        "The earner of this certificate has demonstrated mastery of fundamental skills required for Data Engineering, including a working knowledge of the data ecosystem and lifecyle, Python programming  language, working with different types of data files, using libraries such as Pandas and Numpy, invoking APIs, webscraping, performing basic ETL, and working with SQL and relational databases.",
-      image: require("./assets/images/Data_Engineering_Essentials.png"),
+        "Earners of the Data Engineer Associate certification have demonstrated an ability to perform basic data engineering tasks using Databricks and its capabilities.",
+      image: require("./assets/images/databricks.png"),
       footerLink: [
         {
           name: "Certificate",
-          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/F6EGB7LS9D2K"
+          url: "https://credentials.databricks.com/c21e3faa-63f3-4bec-a2f8-6c3862c7404b#gs.2qlt3b"
         }
       ]
     },
@@ -333,14 +330,26 @@ const achievementSection = {
       ]
     },
     {
-      title: "Le Wagon Data Science Bootcamp",
+      title: "Microsoft Certified: Azure Data Fundamentals",
       subtitle:
-        "Completed Le Wagon 360h long Data Science, Python & Machine learning bootcamp.",
-      image: require("./assets/images/logolewagon.png"),
+        "Earners of the Azure Data Fundamentals certification have demonstrated foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services.",
+      image: require("./assets/images/dp900.png"),
       footerLink: [
         {
           name: "Certificate",
-          url: "https://drive.google.com/file/d/1U4raHeqTN2-zf52dOjZ6N__RzBF8dfLb/view?usp=sharing"
+          url: "https://www.credly.com/badges/ad27a4d2-1370-4485-b13c-d8a7222640dc/public_url"
+        }
+      ]
+    },
+    {
+      title: "Microsoft Certified: Azure Fundamentals",
+      subtitle:
+        "Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.",
+      image: require("./assets/images/az900.png"),
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "https://www.credly.com/badges/684f63d2-0e48-41b9-9cc8-edef8802863b/public_url"
         }
       ]
     }
@@ -380,10 +389,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "",
+      subtitle: "",
+      slides_url: "",
+      event_url: ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -397,7 +406,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    ""
   ],
   display: false // Set false to hide this section, defaults to true
 };
