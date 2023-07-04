@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://credentials.databricks.com/
+HostUrl=https://s3.us-east-1.amazonaws.com/accredible_temp_evidence_upload/badge/f9a520b5-df43-4b4d-b3ce-9e29fa93c1ac.png
